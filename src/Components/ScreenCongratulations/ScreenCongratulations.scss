@@ -1,0 +1,372 @@
+@import "../../../../global-style/reset.scss";
+@import "../../../../global-style/responsive.scss";
+
+
+
+// *{
+//     outline: 1px solid red;
+// }
+
+
+
+.react-tw-congrat-main-wrapper {
+    background-color: #FFF5F6;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include mobile {
+        display: block;
+        background-color: white;
+    }
+
+    .react-congrat-form-container {
+        margin: 55px 0px;
+        border-radius: 20px;
+        width: 945px;
+        background-color: #ffffff;
+
+        @include mobile {
+            width: 100%;
+            padding: 0 15px;
+        }
+
+        // scorcard reject css
+
+
+
+
+
+        // card  css start
+        .react-congrats-card-container {
+            font-family: inter;
+            width: 751px;
+            text-align: center;
+            height: auto;
+            border-radius: 20px;
+            margin: 0 auto;
+            margin-top: 48px;
+
+            @include mobile {
+                margin: 0 auto;
+                width: 100%;
+            }
+
+
+            .react-congratCard-head-container {
+                color: #9B1E26;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 33.89px;
+                padding-top: 40px;
+                margin-bottom: 12px;
+
+                @include mobile {
+                    font-size: 18px;
+                    line-height: 21.78px;
+                }
+
+
+
+            }
+
+            .react-congratCard-head-container-mainContainer {
+                background: linear-gradient(to right, #FCECEB, #F5C3C4);
+                border-radius: 20px;
+
+            }
+
+
+            .react-cong-card-para-amount-container {
+                color: #222222;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21.78px;
+                // margin-bottom: 20px;
+                width: 92%;
+                margin: 10px auto;
+
+
+                @include mobile {
+                    font-size: 14px;
+                    line-height: 17px;
+                    width: 100%;
+                }
+
+                .react-cong-card-para-mob {
+                    display: none;
+
+                    @include mobile {
+                        display: block;
+                    }
+                }
+
+                .react-cong-card-para {
+                    display: block;
+
+                    @include mobile {
+                        display: none;
+                    }
+                }
+
+                .react-cong-card-amount {
+                    display: block;
+
+                    @include mobile {
+                        display: none;
+                    }
+                }
+            }
+
+
+            .react-cong-card-bottomtxt {
+
+
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24.2px;
+                display: inline-block;
+                padding: 16px 27px 16px 25px;
+                border: dotted 1.5px #9B1E26;
+                border-radius: 12px;
+                margin-bottom: 32px;
+                color: black;
+
+                @include mobile {
+                    font-size: 14px;
+                    line-height: 17px;
+                    // margin: 0 15px 32px 15px;
+                    // padding: 16px 15px 16px 16px;
+                }
+            }
+
+            .react-cong-card-bottomtxt-marginBottom-68 {
+                margin-bottom: 68px;
+            }
+
+
+            .react-cong-card-bottomtxt-checkout-loan {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 22px;
+                // display: inline-block;
+                align-items: center;
+                color: #9B1E26;
+                margin-bottom: 64px;
+            }
+
+
+            @include mobile {
+                font-size: 14px;
+                line-height: 17px;
+                // margin: 0 15px 32px 15px;
+                // padding: 16px 15px 16px 16px;
+            }
+
+            .react-cong-card-download-sec {
+                display: inline-block;
+                font-weight: 600;
+                line-height: 19.36px;
+                font-size: 16px;
+                color: #FFFFFF;
+                border-radius: 30px;
+                padding: 16px 36px;
+                background-color: #9A1B24;
+                margin-bottom: 36px;
+                cursor: pointer;
+
+
+            }
+
+            @include mobile {}
+
+
+        }
+
+        .react-congrats-card-container-scorecardPending {
+            padding: 64px 95px 62px 94px;
+            background: linear-gradient(to right, #FCECEB, #F5C3C4);
+            border-radius: 20px;
+
+
+
+            @include mobile {
+                padding: 32px 12px 0 14px;
+                align-items: center;
+            }
+
+        }
+
+        // congratulation css end
+
+        // Nearest Dealers start
+
+        .react-congrats-nearest-map-wrapper {
+            font-family: inter;
+            width: 751px;
+            // margin: 40px auto 0 auto;
+            padding: 40px 0 48px 0;
+            text-align: left;
+
+            @include mobile {
+                width: 100%;
+            }
+
+
+
+            .react-congrats-para {
+                color: #222222;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 33.89px;
+
+                @include mobile {
+                    font-size: 22px;
+                    line-height: 26.63px;
+                }
+
+            }
+
+
+            .react-congrates-Nearest-subWrapper {
+                display: flex;
+                gap: 25px;
+                margin-top: 32px;
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: center;
+
+                @include mobile {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                }
+
+
+
+
+                .react-congrates-Nearest-subWrapper-mapper {
+                    // width: 345px;
+                    width: 100%;
+                    height: 250px;
+                    // background-image: url("/content/dam/idfcfirstbank/images/two-wheeler-loan/map.png");
+
+                    .react-congrates-Nearest-subWrapper-mapper-image {
+                        background-size: cover;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    @include mobile {
+                        display: block;
+                        min-height: 136px;
+                        width: 100%;
+                    }
+
+                }
+
+                .react-congrates-Nearest-subWrapper-container {
+                    // width: 363px;
+
+                    @include mobile {
+                        width: 100%;
+                    }
+
+                    .react-congrates-Nearest-subWrapper-paraOne {
+                        padding: 20px;
+                        border: 1px solid #D8D8D8;
+                        border-radius: 6px;
+
+
+
+                        .react-congrates-Nearest-subWrapper-paraOne-para {
+                            font-size: 18px;
+                            line-height: 21.78px;
+                            font-weight: 600;
+                            color: #222222;
+                            margin-bottom: 12px;
+
+                            @include mobile {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .react-congrates-Nearest-subWrapper-paraOne-subPara {
+                            font-size: 16px;
+                            line-height: 19.36px;
+                            font-weight: 500;
+                            color: #848484;
+                            width: 325px;
+
+                            @include mobile {
+                                font-size: 14px;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .react-congrates-Nearest-subWrapper-paraTWo {
+                        margin-top: 12px;
+                    }
+
+
+                    .react-congrates-Nearest-subWrapper-paraThree-mainWrapper {
+
+
+                        @include mobile {
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                        .react-congrates-Nearest-subWrapper-paraThree {
+
+                            display: inline-block;
+                            color: #FFFFFF;
+                            background-color: #9A1B24;
+                            border-radius: 30px;
+                            padding: 16px 36px;
+                            align-items: center;
+                            // margin-top: 24px;
+                            font-size: 16px;
+                            cursor: pointer;
+
+
+
+                            @include mobile {
+                                font-size: 16px;
+                                line-height: 19.36px;
+                                // max-width: 278px;
+                                text-align: center;
+                            }
+
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+    .react-tw-congrat-main-wrapper-backgroundNone {
+        background-color: #ffffff;
+
+
+        @include mobile {
+            background-color: #ffffff;
+        }
+    }
+
+    .react-tw-congrat-main-wrapper-backgroundPurple {
+        background: linear-gradient(to right, #FCECEB, #F5C3C4);
+
+        @include mobile {
+            background-color: #ffffff;
+        }
+    }
+
+}

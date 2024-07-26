@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / alert</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Startup-Banking-Landing-Page-Mobile-Web-OTP" transform="translate(-293.000000, -4293.000000)" stroke="#787878">
+            <g id="Form" transform="translate(14.000000, 3786.000000)">
+                <g id="Group-2" transform="translate(279.000000, 504.000000)">
+                    <g id="icons-/-alert" transform="translate(0.000000, 3.901966)">
+                        <path d="M6.27314223,1.46998279 C3.40881975,2.04756969 1.25,4.60835749 1.25,7.67997529 C1.25,11.1770099 4.04822031,14.0119167 7.5,14.0119167 L7.5,14.0119167 C10.9517797,14.0119167 13.75,11.1770099 13.75,7.67997529 C13.75,4.59916786 11.5782435,2.0322516 8.70113054,1.46485203" id="Path-2"></path>
+                        <polyline id="Line" stroke-width="2" points="7.5 0 7.5 7.71028027 11.218656 5.05186822"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

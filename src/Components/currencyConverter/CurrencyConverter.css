@@ -1,0 +1,48 @@
+.maonCurrencyContainor {
+    /* width: 100vh;
+    height: 100vh; */
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(105, 140, 165, 1) 25%,
+        rgba(0, 212, 255, 1) 100%
+    );
+    min-height: 100vh;
+    /* overflow: hidden; */
+}
+
+.currencyTwoContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.para {
+    scale: 0.8;
+    font-size: 40px;
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+    /* margin-bottom: 10%  ; */
+    transition: scale 2s;
+}
+
+.para:hover {
+    scale: 1;
+}
+
+.ConvertButton {
+    font-size: 30px;
+    padding: 15px;
+    width: 350px;
+}

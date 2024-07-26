@@ -1,0 +1,58 @@
+.inputCurrencyOneContainer {
+    width: 60%;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    /* border: 2px solid green; */
+    /* background: white; */
+    padding: 30px;
+}
+
+
+
+.inputSubContainer {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.inputSubContainer p {
+    font-size: 20px;
+}
+
+.inputSubContainerNew {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.inputSubContainerNew input {
+    padding: 10px;
+
+    font-size: 20px;
+}
+
+.inputSubContainerNew input:focus {
+    border: none;
+    outline: none;
+}
+
+.inputSubContainerNew input {
+    border: none;
+    border-radius: 5px;
+}
+
+.selectOption {
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+
+}
+
+.selectOption:focus{
+    outline: none;
+    border: none;
+}
