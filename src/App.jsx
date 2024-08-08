@@ -5,15 +5,17 @@ import BackgroundChange from "./Components/BackgroundChange";
 import PasswordGenerator from "./Components/PasswordGenerator";
 import CurrencyConverter from "./Components/currencyConverter";
 import CurrencyInput from "./Components/currencyConverter/currencyInput"
-import ScreenSenctionLetterPdf from "./Components/ScreenSenctionLatterPdf/ScreenSenctionLatterPdf"
+import ScreenSenctionLetterPdf from "./Components/ScreenSenctionLatterPdf/ScreenSenctionLatterPdf";
+import TodoComponent from "./Components/TodoComponet/TodoComponent";
 
 function App() {
     return (
         <>
+            <TodoComponent />
             {/* <Counter /> */}
             {/* <BackgroundChange /> */}
             {/* <PasswordGenerator /> */}
-            <CurrencyConverter />
+            {/* <CurrencyConverter /> */}
             {/* <CurrencyInput /> */}
             {/* <ScreenSenctionLetterPdf /> */}
         </>
