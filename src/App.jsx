@@ -28,7 +28,7 @@ function App() {
             //     todo: " Todo msg3",
             //     completed: false,
             // }
-        ],
+        ]
     )
 
     const addTodo = (todo) => {
@@ -44,12 +44,12 @@ function App() {
     }
     const toggleComplete = (id) => {
         setTodos((prev) => {
-            prev.map((prevTodos) => prevTodos.id !== id ? { ...prevTodos, completed: !completed } : prevTodos)
+            return prev.map((prevTodos) => prevTodos.id === id ? { ...prevTodos, completed: !prevTodos.completed } : prevTodos)
         })
     }
 
-    useEffect(() => {
 
+    useEffect(() => {
         const todos = JSON.parse(localStorage.getItem("todos"))
         if (todos && todos.length > 0) {
             setTodos(todos)
@@ -58,7 +58,8 @@ function App() {
 
     useEffect(() => {
         localStorage.setItem("todos", JSON.stringify(todos))
-    }, [])
+    }, [todos])
+
 
 
 

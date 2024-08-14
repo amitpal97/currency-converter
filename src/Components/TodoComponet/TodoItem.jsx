@@ -14,6 +14,8 @@ function TodoItem({ todo }) {
     }
     const toggleCompleted = () => {
         toggleComplete(todo?.id)
+        console.log("hiiii");
+        
     }
 
     return (
