@@ -43,9 +43,9 @@ function App() {
         setTodos((prev) => prev.filter((todo) => todo.id !== id))
     }
     const toggleComplete = (id) => {
-        setTodos((prev) => {
-            return prev.map((prevTodos) => prevTodos.id === id ? { ...prevTodos, completed: !prevTodos.completed } : prevTodos)
-        })
+        setTodos((prev) => (
+            prev.map((prevTodos) => prevTodos.id === id ? { ...prevTodos, completed: !prevTodos.completed } : prevTodos)
+        ))
     }
 
 
